@@ -24,14 +24,16 @@
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Build.Framework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-    <Reference Include="Microsoft.Build.Utilities, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-    <Reference Include="Microsoft.Build.Tasks, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.Build.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.boo" />
     <Compile Include="UnityScript.Build.Tasks\US.boo" />
     <Compile Include="UnityScript.Build.Tasks\CreateUnityScriptManifestResourceName.boo" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+    <Folder Include="UnityScript.Build.Tasks\" />
   </ItemGroup>
   <Import Project="$(BooBinPath)\Boo.Microsoft.Build.targets" />
 </Project>

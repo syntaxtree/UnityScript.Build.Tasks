@@ -1,7 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-# SharpDevelop 4.0.0.7070
 Project("{A33008B1-5DAC-44D5-9060-242E3B6E38F2}") = "UnityScript.Build.Tasks", "UnityScript.Build.Tasks.booproj", "{AE78C823-A0EA-4AFC-A839-2634E82FEBB2}"
 EndProject
 Global
@@ -10,9 +9,10 @@ Global
 		Release|AnyCPU = Release|AnyCPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AE78C823-A0EA-4AFC-A839-2634E82FEBB2}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
-		{AE78C823-A0EA-4AFC-A839-2634E82FEBB2}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
-		{AE78C823-A0EA-4AFC-A839-2634E82FEBB2}.Release|AnyCPU.Build.0 = Release|AnyCPU
-		{AE78C823-A0EA-4AFC-A839-2634E82FEBB2}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{AE78C823-A0EA-4AFC-A839-2634E82FEBB2}.Debug|AnyCPU.ActiveCfg = Debug|x86
+		{AE78C823-A0EA-4AFC-A839-2634E82FEBB2}.Release|AnyCPU.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
