@@ -35,5 +35,10 @@
     <Folder Include="Properties\" />
     <Folder Include="UnityScript.Build.Tasks\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="UnityScript.Build.targets">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(BooBinPath)\Boo.Microsoft.Build.targets" />
 </Project>
