@@ -5,12 +5,14 @@ Project("{A33008B1-5DAC-44D5-9060-242E3B6E38F2}") = "UnityScript.Build.Tasks", "
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|AnyCPU = Debug|AnyCPU
-		Release|AnyCPU = Release|AnyCPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AE78C823-A0EA-4AFC-A839-2634E82FEBB2}.Debug|AnyCPU.ActiveCfg = Debug|x86
-		{AE78C823-A0EA-4AFC-A839-2634E82FEBB2}.Release|AnyCPU.ActiveCfg = Release|x86
+		{AE78C823-A0EA-4AFC-A839-2634E82FEBB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE78C823-A0EA-4AFC-A839-2634E82FEBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE78C823-A0EA-4AFC-A839-2634E82FEBB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE78C823-A0EA-4AFC-A839-2634E82FEBB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
