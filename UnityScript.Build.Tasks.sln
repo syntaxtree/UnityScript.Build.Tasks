@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{A33008B1-5DAC-44D5-9060-242E3B6E38F2}") = "UnityScript.Build.Tasks", "UnityScript.Build.Tasks.booproj", "{AE78C823-A0EA-4AFC-A839-2634E82FEBB2}"
+Project("{06C3D72F-0EBA-46A2-AFEE-5197E65B1782}") = "UnityScript.Build.Tasks", "UnityScript.Build.Tasks.booproj", "{AE78C823-A0EA-4AFC-A839-2634E82FEBB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
